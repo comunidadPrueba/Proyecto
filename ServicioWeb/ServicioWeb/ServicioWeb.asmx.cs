@@ -31,5 +31,9 @@ namespace ServicioWeb
         {
             return "Esta es mi edad: " + edad;
         }
+        public string Preuba2(string edad)
+        {
+            return "Esta es mi edad: " + edad;
+        }
     }
 }
