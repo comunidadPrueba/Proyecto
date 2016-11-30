@@ -22,5 +22,10 @@ namespace ServicioWeb
         {
             return "Hello World";
         }
+        [WebMethod]
+        public string Edad(string edad)
+        {
+            return "Esta es mi edad: " + edad;
+        }
     }
 }
