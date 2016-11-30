@@ -27,5 +27,9 @@ namespace ServicioWeb
         {
             return "Esta es mi edad: " + edad;
         }
+        public string Prueba(string edad)
+        {
+            return "Esta es mi edad: " + edad;
+        }
     }
 }
